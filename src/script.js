@@ -32,7 +32,7 @@ export function initSearch(people) { // rör ej denna rad
       
     // 5. Om du hittar en match, skriv ut "Namn hittades!" i resultDisplay, ändra found till true
 
-    htmlResult.innerHTML = "Namn hittades!"
+    htmlResult.innerHTML = "Namn hittades: " + name
     found = true
     }}
 
